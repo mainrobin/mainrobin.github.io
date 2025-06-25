@@ -1,46 +1,345 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title></title>
-    <style type="text/css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mainrobin | Strategic Technology Advisory for Smart Infrastructure & AI Systems</title>
+    <style>
+        :root {
+            --primary-red: #c00;
+            --dark-grey: #333;
+            --medium-grey: #666;
+            --light-grey: #f5f5f5;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-grey);
+            margin: 0;
+            padding: 0;
+            background: white;
+        }
+        header {
+            background: white;
+            padding: 2rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        .logo-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            height: 60px;
+        }
+        nav a {
+            color: var(--dark-grey);
+            text-decoration: none;
+            margin-left: 2rem;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: var(--primary-red);
+        }
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+        }
+        .tagline {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: var(--primary-red);
+            margin-bottom: 1rem;
+        }
+        .subtagline {
+            font-size: 1.2rem;
+            color: var(--medium-grey);
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--primary-red);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0.5rem;
+        }
+        .btn-outline {
+            background: white;
+            color: var(--primary-red);
+            border: 1px solid var(--primary-red);
+        }
+        section {
+            padding: 4rem 0;
+        }
+        h2 {
+            color: var(--primary-red);
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .service-card {
+            border: 1px solid #eee;
+            padding: 2rem;
+            border-radius: 4px;
+        }
+        .service-card h3 {
+            color: var(--dark-grey);
+            margin-top: 0;
+        }
+        .bio {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        .bio-image {
+            border-radius: 4px;
+            max-width: 100%;
+        }
+        .clients {
+            background: var(--light-grey);
+        }
+        .client-logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+            align-items: center;
+        }
+        .client-logos img {
+            height: 40px;
+            opacity: 0.7;
+        }
+        footer {
+            background: #f5f5f5; /* Light grey matching the copyright text color */
+            color: #333;        /* Dark grey text (matches your current background) */
+            padding: 3rem 0;
+            text-align: center;
+            border-top: 1px solid #ddd; /* Optional subtle border */
+        }
 
-span {
-  font-family: "Arial";
-  font-size: larger;
-}
+        .contact-info {
+            margin-bottom: 2rem;
+        }
 
-div {
-  font-family: "Arial";
-  font-size: medium;
-}
+        .copyright {
+            color: #999;       /* Keeping this slightly lighter than body text */
+            font-size: 0.9rem;
+        }
 
-em {
-  font-family: "Arial";
-  font-size: small;
-}
+        /* Make sure links in footer are also dark grey */
+        footer a {
+            color: #333;
+        }
+        footer a:hover {
+            color: var(--primary-red); /* Hover effect with your red */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container logo-nav">
+            <img src="images\MainRobin_trans_logo.png" alt="Mainrobin Logo" class="logo">
+            <nav>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#clients">Clients</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-</style></head>
-  <body>
-    <div class="sites-layout-tile sites-tile-name-header" style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
-      <p style="text-align: center;"><strong><br>
-        </strong></p>
-      <div style="text-align: center;"><img src="MainRobin.png" alt="mainrobin pty ltd"
+    <section class="hero">
+        <div class="container">
+            <h1 class="tagline">Strategic Technology Advisory for Smart Infrastructure & AI Systems</h1>
+            <p class="subtagline">Bridging deep technical expertise with strategic business value in complex systems environments</p>
+            <div>
+                <a href="#contact" class="btn">Get in Touch</a>
+                <a href="#services" class="btn btn-outline">Our Services</a>
+            </div>
+        </div>
+    </section>
 
-          title="mainrobin"><br>
-      </div>
-    </div>
-    <div class="sites-layout-tile sites-tile-name-content-1" style="color: rgb(0, 0, 0); font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
-      <p>&nbsp;</p>
-      <div style="text-align: center;">
-        Contact Details:<br>
-        MainRobin Pty Ltd<br>
-        Phone: 0439 708 237<br>
-        <a href="mailto:mark@mainrobin.com">mark@mainrobin.com</a></div>
-    </div>
-    <div class="sites-layout-tile sites-tile-name-footer" style="color: black; font-family: &quot;Times New Roman&quot;; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-align: center;">&nbsp;<br>
-      <em>smartcard systems | intelligent transit systems | design | software
-        development</em></div>
-    <p></p>
-  </body>
+    <section id="services">
+        <div class="container">
+            <h2>Our Advisory Services</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3>Technology Strategy & Roadmapping</h3>
+                    <p>Develop comprehensive technology strategies for smart infrastructure, mobility systems, and industrial automation with clear implementation roadmaps.</p>
+                </div>
+                <div class="service-card">
+                    <h3>AI Systems Implementation</h3>
+                    <p>Practical guidance on integrating AI/ML into existing industrial and transport systems while managing technical debt and implementation risks.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Technical Due Diligence</h3>
+                    <p>Independent assessment of technology investments, startups, and acquisitions with focus on systems architecture and implementation viability.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Complex Systems Architecture</h3>
+                    <p>Design and review of large-scale, interoperable systems with emphasis on security, reliability, and future scalability.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Procurement & Vendor Strategy</h3>
+                    <p>Develop technical specifications, evaluation frameworks, and negotiation strategies for high-value technology procurements.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Interoperability Standards</h3>
+                    <p>Expert guidance on implementing open standards and achieving technical interoperability across ecosystems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Mark Ward</h2>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p style="margin-bottom: 1.5rem;">With over 30 years of experience delivering large-scale technology projects across intelligent transport, industrial automation and marine systems, Mark Ward brings unparalleled technical depth combined with strategic business acumen.</p>
+
+                <p style="margin-bottom: 1.5rem;">As a Senior Systems Engineer and Technical Consultant, Mark has led international teams on projects ranging from $10M to $1B+, specializing in system design, integration, embedded systems, and technical strategy consulting.</p>
+
+                <p style="margin-bottom: 1.5rem;">Mark is a trusted advisor in multi-modal transport payment systems, embedded smartcard security, interoperability standards, and the strategic application of AI in industrial environments.</p>
+
+                <p>His expertise spans from hands-on systems engineering to high-level technology strategy, helping organizations bridge the gap between technical implementation and business value in complex systems environments.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients" class="clients">
+        <div class="container">
+            <h2>Selected Clients & Projects</h2>
+            <div class="client-logos">
+                <a href="https://translink.com.au/about-translink/projects-and-initiatives/smart-ticketing" target="_blank" rel="noopener noreferrer">
+                    <img src="images\translink_logo.png" alt="TransLink Queensland" style="height: 50px;">
+                </a>
+
+                <a href="https://www.nsw.gov.au/" target="_blank" rel="noopener noreferrer">
+                    <img src="images\nswgov_logo.svg" alt="NSW Government" style="height: 50px;">
+                </a>
+
+                <a href="https://www.ptv.vic.gov.au/" target="_blank" rel="noopener noreferrer">
+                    <img src="images\ptv.png" alt="Public Transport Victoria" style="height: 50px;">
+                </a>
+
+                <a href="https://www.vic.gov.au/department-transport-and-planning" target="_blank" rel="noopener noreferrer">
+                    <img src="images\VicGov_logo.png" alt="Victoria Department of Transport and Planning" style="height: 50px;">
+                </a>
+
+                <a href="https://at.govt.nz/" target="_blank" rel="noopener noreferrer">
+                    <img src="images\at_logo.svg" alt="Auckland Transport" style="height: 50px;">
+                </a>
+
+                <a href="https://nzta.govt.nz/" target="_blank" rel="noopener noreferrer">
+                    <img src="images\nzta.png" alt="NZ Transport Agency" style="height: 50px;">
+                </a>
+            </div>
+            <p style="text-align: center; margin-top: 2rem;">
+                <a href="#contact" class="btn">Discuss Your Project</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div style="max-width: 600px; margin: 0 auto;">
+                <p>Ready to discuss how we can help with your strategic technology challenges?</p>
+
+                <form id="contact-form" action="https://formspree.io/f/mdkzpkwg" method="POST">
+                    <div style="margin-bottom: 1rem;">
+                        <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Name</label>
+                        <input type="text" id="name" name="name" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px;">
+                    </div>
+
+                    <div style="margin-bottom: 1rem;">
+                        <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email</label>
+                        <input type="email" id="email" name="email" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px;">
+                    </div>
+
+                    <div style="margin-bottom: 1rem;">
+                        <label for="company" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Company (Optional)</label>
+                        <input type="text" id="company" name="company" style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px;">
+                    </div>
+
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">How can we help?</label>
+                        <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn" style="border: none; cursor: pointer;">Send Message</button>
+
+                    <div id="form-status" style="margin-top: 1rem;"></div>
+                </form>
+
+                <script>
+                    const form = document.getElementById('contact-form');
+                    const formStatus = document.getElementById('form-status');
+
+                    form.addEventListener('submit', function(event) {
+                        event.preventDefault();
+
+                        const submitButton = form.querySelector('button[type="submit"]');
+                        submitButton.disabled = true;
+                        submitButton.textContent = 'Sending...';
+
+                        fetch(form.action, {
+                            method: 'POST',
+                            body: new FormData(form),
+                            headers: {
+                                'Accept': 'application/json'
+                            }
+                        })
+                        .then(response => {
+                            if (response.ok) {
+                                formStatus.innerHTML = '<p style="color: green;">Thanks for your message! We\'ll be in touch soon.</p>';
+                                form.reset();
+                            } else {
+                                throw new Error('Form submission failed');
+                            }
+                        })
+                        .catch(error => {
+                            formStatus.innerHTML = '<p style="color: var(--primary-red);">Oops! There was a problem sending your message. Please try again later or email us directly.</p>';
+                        })
+                        .finally(() => {
+                            submitButton.disabled = false;
+                            submitButton.textContent = 'Send Message';
+                        });
+                    });
+                </script>
+
+                <div style="margin-top: 2rem; text-align: center;">
+                    <p><strong>Or contact us directly:</strong></p>
+                    <p><strong>Email:</strong> <a href="mailto:mark@mainrobin.com">mark@mainrobin.com</a></p>
+                    <p><strong>Phone:</strong> +61 439 708 237</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="contact-info">
+                <img src="images\MainRobin_trans_logo.png" alt="Mainrobin Logo" style="height: 40px; margin-bottom: 1rem;">
+                <p>Strategic Technology Advisory for Smart Infrastructure & AI Systems</p>
+            </div>
+            <p class="copyright">© 2025 Mainrobin Pty Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
