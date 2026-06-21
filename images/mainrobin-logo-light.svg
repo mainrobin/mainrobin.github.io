@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" fill="none">
+  <!-- MainRobin primary logo lockup — light background version -->
+  <!-- Icon: 5-block pixel mark, DevCortex-blue family (unchanged across backgrounds) -->
+  <g transform="translate(0, 13)">
+    <rect x="0" y="0" width="13.3" height="13.3" rx="2.5" fill="#6e94cc"/>
+    <rect x="17.3" y="0" width="13.3" height="13.3" rx="2.5" fill="#3a5f96"/>
+    <rect x="34.6" y="0" width="13.3" height="13.3" rx="2.5" fill="#4472b4"/>
+    <rect x="0" y="17.3" width="13.3" height="13.3" rx="2.5" fill="#4472b4"/>
+    <rect x="17.3" y="17.3" width="13.3" height="13.3" rx="2.5" fill="#28456e"/>
+    <rect x="0" y="34.6" width="13.3" height="13.3" rx="2.5" fill="#1d3656"/>
+  </g>
+  <!-- Wordmark — dark text for light backgrounds -->
+  <text x="62" y="40" font-family="Inter, -apple-system, sans-serif" font-size="34" font-weight="700" fill="#18181b">main<tspan font-weight="400" fill="#555e70">robin</tspan></text>
+</svg>

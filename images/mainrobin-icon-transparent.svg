@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- MainRobin icon mark — transparent background variant -->
+  <!-- For placement on coloured surfaces / dark UI chrome where own background is undesirable -->
+  <g transform="translate(7, 7)">
+    <rect x="0" y="0" width="10.6" height="10.6" rx="2" fill="#6e94cc"/>
+    <rect x="13.8" y="0" width="10.6" height="10.6" rx="2" fill="#3a5f96"/>
+    <rect x="27.6" y="0" width="10.6" height="10.6" rx="2" fill="#4472b4"/>
+    <rect x="0" y="13.8" width="10.6" height="10.6" rx="2" fill="#4472b4"/>
+    <rect x="13.8" y="13.8" width="10.6" height="10.6" rx="2" fill="#28456e"/>
+    <rect x="0" y="27.6" width="10.6" height="10.6" rx="2" fill="#1d3656"/>
+  </g>
+</svg>
